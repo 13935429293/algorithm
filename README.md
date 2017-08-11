@@ -1,3 +1,3 @@
 # algorithm
 
-algorithm study
+* algorithm study
