@@ -56,6 +56,18 @@ public class SortTestHelper {
     }
 
     /**
+     * 指定数组交换位置
+     * @param arr
+     * @param i
+     * @param j
+     */
+    public static void swap(Object[] arr, int i, int j) {
+        Object tmp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = tmp;
+    }
+
+    /**
      * 是否排序正确
      *
      * @param arr
